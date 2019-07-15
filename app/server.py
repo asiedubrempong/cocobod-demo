@@ -9,10 +9,10 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://drive.google.com/uc?export=download&id=1xcTpai7PgVgwrm17x6E0YT3Rshjhm_vY'
+export_file_url = 'https://drive.google.com/uc?export=download&id=12czFtXivQE3mFZxn4UwoKp5wDA0KAWtT'
 export_file_name = 'final.pkl'
 
-classes = ['Black Pod', 'Healthy Pod']
+classes = ['Black Pod', 'Healthy Pod', 'Pest Infested Pod']
 path = Path(__file__).parent
 
 app = Starlette()
